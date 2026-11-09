@@ -1,0 +1,32 @@
+{
+  "name": "opencode-opencsg-auth",
+  "version": "0.1.0",
+  "description": "OpenCode / magpie provider plugin: 开放传神 OpenCSG AI 网关",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie-plugin",
+    "opencsg",
+    "csghub",
+    "openai-compatible"
+  ],
+  "license": "MIT",
+  "magpie": {
+    "name": "开放传神 OpenCSG",
+    "summary": {
+      "zh": "把开放传神（OpenCSG / 传神社区）的 AI 网关接进 magpie，模型列表自动发现。",
+      "en": "Brings the OpenCSG (开放传神) AI gateway into magpie, with automatic model discovery."
+    },
+    "maxConcurrency": 8
+  }
+}
